@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import SearchBar from "./SearchBar";
 import PostContainer from "./PostContainer";
+import LotteryWiki from "./LotteryWIki";
 
 const Home = () => {
    return (
@@ -14,6 +15,7 @@ const Home = () => {
          <SearchBar />  
          <PostContainer />
          </div>
+         <LotteryWiki />
 
          {/* Puedes agregar más contenido aquí si lo necesitas */}
       </div>
