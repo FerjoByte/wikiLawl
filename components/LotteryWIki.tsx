@@ -3,12 +3,14 @@ import React from "react";
 const LotteryWiki = () => {
 
 return(
-    <div className="p-4 border-[3px] border-[#655333] rounded-lg mx-2 bg-[#232625] flex flex-col items-center justify-center lg:justify-start lg:w-1/4 lg:mt-32 lg:h-full lg:mx-8">
+    <div className="border-[3px] border-[#AC8237] rounded-xl mx-4 bg-[#232625] flex flex-col items-center justify-center lg:w-56 lg:p-0 lg:mx-auto lg:rounded-lg hover:border-[#E8A733]">
         <img src="/lottery-home.png" alt="loterry-home"
-        className="lg:w-2/3"
+        className="w-48 lg:w-2/3 my-4"
         />
-        <button className="w-64 mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
+        <div className="flex items-center justify-center w-full bg-[#AC8237] hover:bg-[#E8A733] transition duration-300">
+        <button className="flex items-center justify-center text-white transition duration-300 h-8 lg:w-48">
             Lottery Wiki</button>
+        </div>
     </div>
 )
 

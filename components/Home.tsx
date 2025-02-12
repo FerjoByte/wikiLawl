@@ -3,6 +3,9 @@ import Navbar from "./Navbar";
 import SearchBar from "./SearchBar";
 import PostContainer from "./PostContainer";
 import LotteryWiki from "./LotteryWIki";
+import FanpageSection from "./FanpageSection";
+import Colaborate from "./Collaborate";
+import Collaborate from "./Collaborate";
 
 const Home = () => {
    return (
@@ -15,7 +18,11 @@ const Home = () => {
          <SearchBar />  
          <PostContainer />
          </div>
+         <div className="lg:w-1/4 lg:items-center">
+         <FanpageSection />
          <LotteryWiki />
+         <Collaborate/>
+         </div>
 
          {/* Puedes agregar más contenido aquí si lo necesitas */}
       </div>
