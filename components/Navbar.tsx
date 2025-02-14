@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Ourteam from "./Ourteam";
 
 const Navbar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false)
@@ -32,7 +33,11 @@ const Navbar = () => {
                     <li className="bg-[#232625] border-[3px] border-[#AC8237] p-2 rounded-lg mb-2 lg:hover:bg-[#3a3b3c] lg:hover:border-[#E8A733] lg:hover:text-[1.02rem]"><a href="#">MISIONES</a></li>
                     <li className="bg-[#232625] border-[3px] border-[#AC8237] p-2 rounded-lg mb-2 lg:hover:bg-[#3a3b3c] lg:hover:border-[#E8A733] lg:hover:text-[1.02rem]"><a href="#">SUPPORT</a></li>
                     <li className="bg-[#232625] border-[3px] border-[#AC8237] p-2 rounded-lg mb-2 lg:hover:bg-[#3a3b3c] lg:hover:border-[#8A733] lg:hover:text-[1.02rem]"><a href="#">CASAS</a></li>
+                    <li className="bg-[#232625] border-[3px] border-[#AC8237] p-2 rounded-lg mb-2 lg:hover:bg-[#3a3b3c] lg:hover:border-[#8A733] lg:hover:text-[1.02rem]"><a href="#">MONSTER</a></li>
                 </ul>
+            </div>
+            <div className="hidden lg:block">
+            <Ourteam />
             </div>
         </nav>
     )

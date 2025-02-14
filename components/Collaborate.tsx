@@ -3,7 +3,7 @@ import React from "react";
 const Collaborate = () => {
 
 return(
-    <div className=" border-[3px] bg-[#f99c16] border-[#AC8237] rounded-xl mx-4 flex flex-col items-center justify-center lg:w-56 my-4 lg:mx-auto lg:rounded-lg hover:border-[#E8A733]">
+    <div className=" border-[3px] bg-[#f99c16] border-[#AC8237] rounded-xl mx-4 flex flex-col items-center justify-center lg:w-56 my-6 lg:mx-auto lg:rounded-lg hover:border-[#E8A733]">
         <img src="/collaborate-img.png" alt="loterry-home"
         className=" rounded-lg"
         />
