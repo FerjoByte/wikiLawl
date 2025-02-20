@@ -9,7 +9,7 @@ return(
         />
         <div className="flex items-center justify-center w-full bg-[#AC8237] hover:bg-[#E8A733] transition duration-300">
         <button className="flex items-center justify-center text-white transition duration-300 h-8 lg:w-48">
-            JOIN THE COMMUNITY</button>
+            Join the community</button>
         </div>
     </div>
 )

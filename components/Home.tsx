@@ -28,7 +28,7 @@ const Home = () => {
          </div>
          </div>
 
-         {/* Puedes agregar más contenido aquí si lo necesitas */}
+      
       </div>
    );
 };

@@ -26,7 +26,7 @@ const Navbar = () => {
             </button>
 
             <div className={`${isMenuOpen ? 'absolute top-20 right-0 block p-4  z-50 w-64' : 'hidden'} lg:block`}>
-                <ul className="text-center text-white lg:w-64 m-auto">
+                <ul className=" text-center text-white lg:w-64 m-auto">
                     <li className="bg-[#232625] border-[3px] border-[#AC8237] p-2 rounded-lg mb-2 lg:hover:bg-[#3a3b3c] lg:hover:border-[#E8A733] lg:hover:text-[1.02rem] "><a href="#">PRIMEROS PASOS</a></li>
                     <li className="bg-[#232625] border-[3px] border-[#AC8237] p-2 rounded-lg mb-2 lg:hover:bg-[#3a3b3c] lg:hover:border-[#E8A733] lg:hover:text-[1.02rem]"><a href="#">MONTURAS</a></li>
                     <li className="bg-[#232625] border-[3px] border-[#AC8237] p-2 rounded-lg mb-2 lg:hover:bg-[#3a3b3c] lg:hover:border-[#E8A733] lg:hover:text-[1.02rem]"><a href="#">TRAJES</a></li>

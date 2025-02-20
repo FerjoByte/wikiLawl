@@ -2,6 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('/fonts/Livvic-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('/fonts/Livvic-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('/fonts/Livvic-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+}
+
+ ul {
+ font-family: 'lato', sans-serif ;
+ font-weight: regular;
+}
+ button {
+ font-family: 'lato', sans-serif ;
+ font-weight: bold;
+}
+ p {
+ font-family: 'livvic', serif ;
+ font-weight: regular;
+}
+ h2, h3, span {
+ font-family: 'livvic', serif ;
+ font-style: italic;
+ font-weight: 500;
+}
+
+
+
 
 
 
